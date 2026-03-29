@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Салон краси Юрія Ющенка — Харків</title>
+  <meta name="description" content="Салон краси Юрія Ющенка у Харкові. Професійний стиліст, перукар з багаторічним досвідом. Віце-президент Спілки професіоналів України.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__icon">Ю</span>
+        <span class="logo__text">Ющенко</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">Про майстра</a>
+        <a href="#services" class="nav__link">Послуги</a>
+        <a href="#achievements" class="nav__link">Досягнення</a>
+        <a href="#gallery" class="nav__link">Галерея</a>
+        <a href="#contact" class="nav__link">Контакти</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+ 
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <p class="hero__subtitle">Салон краси</p>
+      <h1 class="hero__title">Юрій Ющенко</h1>
+      <p class="hero__desc">Професійний стиліст та перукар з багаторічним досвідом.<br>Віце-президент Спілки професіоналів України.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Записатися</a>
+        <a href="#about" class="btn btn--outline">Дізнатися більше</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Прокрутіть вниз</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+ 
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__image-wrap">
+          <div class="about__image">
+            <img src="images/yuriy-stylist.jpg" alt="Юрій Ющенко за роботою" loading="lazy">
+          </div>
+          <div class="about__image-accent"></div>
+        </div>
+        <div class="about__content">
+          <p class="section__label">Про майстра</p>
+          <h2 class="section__title">Юрій Ігорович Ющенко</h2>
+          <p class="about__text">
+            Професійний стиліст та перукар з багаторічним досвідом у індустрії краси.
+            Юрій — не просто майстер своєї справи, а справжній артист, який перетворює
+            кожну зачіску на витвір мистецтва.
+          </p>
+          <p class="about__text">
+            Протягом своєї кар'єри брав участь у численних міжнародних виставках та конкурсах,
+            а нині сам організовує та суддить їх. Його експертна думка цінується на найвищому рівні
+            у професійній спільноті.
+          </p>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__number">25+</span>
+              <span class="stat__label">років досвіду</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">5.0</span>
+              <span class="stat__label">рейтинг Google</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">1000+</span>
+              <span class="stat__label">задоволених клієнтів</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Services Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <p class="section__label section__label--center">Послуги</p>
+      <h2 class="section__title section__title--center">Що ми пропонуємо</h2>
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8C28 8 20 12 18 24C16 36 20 48 32 56C44 48 48 36 46 24C44 12 36 8 32 8Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 20V44" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 28L32 20L40 28" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Стрижки</h3>
+          <p class="service-card__text">Чоловічі та жіночі стрижки будь-якої складності. Індивідуальний підбір стилю.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 12C24 20 24 44 32 52" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 12C40 20 40 44 32 52" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 26H50" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 38H50" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Фарбування</h3>
+          <p class="service-card__text">Професійне фарбування, мелірування, балаяж та інші сучасні техніки.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 16L32 8L44 16V32L32 40L20 32V16Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M32 40V56" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 52H40" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Зачіски</h3>
+          <p class="service-card__text">Святкові та вечірні зачіски, весільні укладки від майстра міжнародного рівня.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="16" y="20" width="32" height="28" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 20V14C24 10.686 26.686 8 30 8H34C37.314 8 40 10.686 40 14V20" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 32H48" stroke="currentColor" stroke-width="2"/>
+              <circle cx="32" cy="32" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Консультації</h3>
+          <p class="service-card__text">Професійні консультації з підбору стилю, догляду за волоссям та іміджу.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 52L20 20L32 44L44 20L52 52" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              <circle cx="32" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Навчання</h3>
+          <p class="service-card__text">Майстер-класи та навчальні курси для перукарів від тренера збірної України.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8L38 26H56L42 36L46 54L32 44L18 54L22 36L8 26H26L32 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Конкурсна підготовка</h3>
+          <p class="service-card__text">Підготовка учасників до міжнародних конкурсів перукарського мистецтва.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Achievements Section -->
+  <section class="section achievements" id="achievements">
+    <div class="container">
+      <p class="section__label section__label--center">Досягнення</p>
+      <h2 class="section__title section__title--center">Професійне визнання</h2>
+      <div class="achievements__grid">
+        <div class="achievement">
+          <div class="achievement__icon">&#9813;</div>
+          <h3 class="achievement__title">Віце-президент</h3>
+          <p class="achievement__text">Спілки професіоналів України, секція перукарського мистецтва</p>
+        </div>
+        <div class="achievement">
+          <div class="achievement__icon">&#9733;</div>
+          <h3 class="achievement__title">Тренер збірної</h3>
+          <p class="achievement__text">Тренер збірної України з перукарського мистецтва</p>
+        </div>
+        <div class="achievement">
+          <div class="achievement__icon">&#9879;</div>
+          <h3 class="achievement__title">Член журі</h3>
+          <p class="achievement__text">Постійний стиліст та член журі міжнародних конкурсів</p>
+        </div>
+        <div class="achievement">
+          <div class="achievement__icon">&#10026;</div>
+          <h3 class="achievement__title">Організатор</h3>
+          <p class="achievement__text">Організатор та суддя професійних виставок і конкурсів</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Gallery Section -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <p class="section__label section__label--center">Галерея</p>
+      <h2 class="section__title section__title--center">Наші роботи</h2>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-1.jpg" alt="Юрій Ющенко на виставці" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-2.jpg" alt="Робота стиліста" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-3.jpg" alt="Конкурсна робота" loading="lazy">
+        </div>
+        <div class="gallery__item">
+          <img src="images/gallery-4.jpg.jpg" alt="Юрій Ющенко — член журі" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/gallery-5.jpg" alt="Майстер-клас" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="section__label">Контакти</p>
+          <h2 class="section__title">Завітайте до нас</h2>
+          <p class="contact__text">Ми завжди раді бачити вас у нашому салоні. Запишіться на прийом або завітайте особисто.</p>
+ 
+          <div class="contact__details">
+            <div class="contact__item">
+              <div class="contact__item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Адреса</strong>
+                <p>пров. Глісада Джуса, 5,<br>Харків, 61000</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Телефон</strong>
+                <p><a href="tel:+380577143135">+38 (057) 714-31-35</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Facebook</strong>
+                <p><a href="https://www.facebook.com/yuriy.yushchenko.9/" target="_blank" rel="noopener">Юрій Ющенко</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.5!2d36.23!3d49.99!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z0L_RgNC-0LLRg9C70L7QuiDQk9C70ZbRgdCw0LTQsCDQlNC20YPRgdCwLCA1LCDQpdCw0YDQutGW0LI!5e0!3m2!1suk!2sua!4v1234567890"
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <span class="logo__icon">Ю</span>
+          <span class="logo__text">Ющенко</span>
+        </a>
+        <p class="footer__tagline">Салон краси в Харкові</p>
+      </div>
+      <div class="footer__links">
+        <a href="#about">Про майстра</a>
+        <a href="#services">Послуги</a>
+        <a href="#achievements">Досягнення</a>
+        <a href="#contact">Контакти</a>
+      </div>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/yuriy.yushchenko.9/" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+        </a>
+        <a href="https://spu-ua.com/ua/35-yuschenko-yuriy-igorovich-sekciya-perukarskogo-mistectva" target="_blank" rel="noopener" aria-label="СПУ">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; 2024 Салон краси Юрія Ющенка. Всі права захищені.</p>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="js/main.js"></script>
+</body>
+</html>
